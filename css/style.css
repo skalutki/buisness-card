@@ -8,6 +8,65 @@ html {
     box-sizing: inherit;
 }
 
-main {
+body {
     background-color: #2C2141;
+    min-height: 100vh;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card {
+    background-color: #F8F8F8;
+    border-radius: 16px;
+    margin: 8px;
+    max-width: 624px;
+    width: 100%;
+    padding: 32px;
+}
+
+.person {
+    display: flex;
+    align-items: flex-start;
+}
+
+.person__description {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.person__description--last {
+    margin-bottom: 0;
+}
+
+.person__description--link {
+    color: #E20613;
+    text-decoration: none;
+}
+
+.person__description--strong {
+    color: #ED6D05;
+    font-weight: normal;
+}
+
+.person__header {
+    margin-bottom: 32px;
+}
+
+.person__name {
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.person__photo {
+    margin-right: 32px;
+}
+
+.person__title {
+    color: #545454;
+    font-style: italic;
+    font-size: 18px;
 }
