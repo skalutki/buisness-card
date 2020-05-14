@@ -63,6 +63,7 @@ body {
 
 .person__photo {
     margin-right: 32px;
+    border-radius: 50%;
 }
 
 .person__title {
